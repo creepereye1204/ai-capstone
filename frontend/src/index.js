@@ -8,7 +8,7 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        hisasd
+        테스트
       </div>
     );
   }
