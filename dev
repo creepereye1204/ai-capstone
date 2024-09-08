@@ -30,3 +30,9 @@ all: migrations migrate npm-run collect commit runserver
 .PHONY: superuser
 superuser:
 	poetry run python manage.py createsuperuser
+
+
+.PHONY: npm-dev
+npm-dev:
+	npm --prefix frontend run dev
+	

@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wcrm8ycxnwv-e_kf3fp5qgl57d@asltg&zybny86mc^6*^v7gb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ai-capstone.p-e.kr','210.94.252.178']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
