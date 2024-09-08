@@ -1,0 +1,28 @@
+.main_top_full_box {
+    height: 60vh;
+    width: 100%;
+    background-image: url('https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/img_header.jpg');
+    background-size: cover; /* 이미지 크기 조정 */
+    background-position: center; /* 중앙 정렬 */
+}
+.eng_title{
+    font-weight: 400;
+    position: fixed;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 24px;
+    margin-bottom:26px;
+}
+body {
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1024px) {  
+    .eng_title{
+        letter-spacing: 10px;
+    }
+}
