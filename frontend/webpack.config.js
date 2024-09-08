@@ -1,12 +1,10 @@
-
 const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
   entry: {
-    main: "./src/index.js", // 메인 엔트리 포인트
+    main: "./src/index.jsx", // 메인 엔트리 포인트
   },
-   // 엔트리 포인트 설정
   output: {
     path: path.resolve(__dirname, "./static/frontend"), // 출력 경로
     filename: "[name].js", // 출력 파일 이름
@@ -14,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/, // .js 파일에 대한 규칙
+        test: /\.(js|jsx)$/, // .js 및 .jsx 파일에 대한 규칙
         exclude: /node_modules/, // node_modules 폴더 제외
         use: {
           loader: "babel-loader", // Babel 로더 사용
@@ -47,7 +45,9 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'), // 환경 변수 설정
     })
-    
   ],
+  resolve: {
+    extensions: ['.js', '.jsx'], // .js 및 .jsx 파일 확장자 처리
+  },
   mode: 'production', // 프로덕션 모드 설정
 };

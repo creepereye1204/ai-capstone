@@ -18,7 +18,7 @@ collect:
 
 .PHONY: npm-run
 npm-run:
-	npm --prefix frontend run dev
+	npm --prefix frontend run build
 
 .PHONY: runserver
 runserver:
