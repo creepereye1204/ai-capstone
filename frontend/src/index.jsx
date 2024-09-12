@@ -1,16 +1,17 @@
 import { render } from "react-dom";
 import React from "react";
-import Intro from "./components/intro/intro";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Intro from "./pages/intro/intro";
+import WebCh2 from "./pages/web-ch2/web-ch2";
 
 const Main = () => {
-  
-
-
-
   return (
-    <div>
-      <Intro/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route path="/webch2" element={<WebCh2 />} />
+      </Routes>
+    </Router>
   );
 };
 
