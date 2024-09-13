@@ -1,0 +1,26 @@
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import "./navbar.css";
+
+const Navbar = () => {
+  const location = useLocation().pathname;
+
+  return (
+    <nav>
+      <Link to="/about" className={location === '/about' ? 'onClicked' : 'Link'}>
+        학부소개
+      </Link>
+      <Link to="/track" className={location === '/track' ? 'onClicked' : 'Link'} id="track">
+        교육과정
+      </Link>
+      <Link to="/guide" className={location === '/guide' ? 'onClicked' : 'Link'} id="guide">
+        학사가이드
+      </Link>
+      <Link to="/community" className={location === '/community' ? 'onClicked' : 'Link'} id="community">
+        커뮤니티
+      </Link>
+    </nav>
+  );
+};
+
+export default Navbar;
