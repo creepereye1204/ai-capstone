@@ -2,20 +2,68 @@ h1{
     margin-left: 10px;
     color: white;
 }
+p{
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+}
 
 body{
     margin: 0px;
 }
-.header{
+#header-container{
+
     height: 400px;
     background-image: url('https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/Vector2-1.jpg');
 }
-.card{
-
-    right: 5%;
+#card{
+    font-weight: bolder;
+    font-size: 12px;
+    align-items: center;
+    justify-items: flex-start;
+    display: flex;
+    left: 5%;
+    top: -50px;
     border-radius: 0px;
-    position: absolute;
+    position: relative;
     width: 90%;
     height: 100px;
-    background:linear-gradient(to right,aqua,lightgreen);
+    background:url('https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/bg_sub_breadcrumb4.png');
+}
+.home-icon{
+    margin: 10px;
+    left: 2%;
+    color: white !important;
+    
+    width: 30px;
+    height: 30px;
+    
+    
+    
+}
+.dot-icon{
+    height: 5px;
+    width: 5px;
+    color: white;
+    margin: 10px;
+    opacity: 0.5;
+}
+.item{
+    color: white;
+
+    margin: 10px;
+    text-decoration: none;
+}
+#sub-title{
+    font-weight:bolder;
+    font-size: 20px;
+    
+    margin-left: 5%;
+}
+#middle-cotainer{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 500px;
+    background:url('https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro.jpg');
 }

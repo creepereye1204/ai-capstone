@@ -1,20 +1,26 @@
-nav{
-    padding: 30px;
-    text-align: right;
+nav {
+    display: flex;
+    justify-content: space-between; /* 양끝 정렬 */
     
+    padding: 25px;
+    border-top: 1px solid grey;
     border-bottom: 1px solid grey;
 }
 
-.Link{
+.Link {
     text-decoration: none;
     margin-left: 10px;
     color: white;
     font-weight: bolder;
-    
 }
-.onClicked{
+
+.onClicked {
     text-decoration: none;
     margin-left: 10px;
     color: skyblue;
     font-weight: bolder;
+}
+
+img {
+    height: 30px;
 }
