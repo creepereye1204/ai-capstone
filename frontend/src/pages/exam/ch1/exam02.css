@@ -61,9 +61,63 @@ body{
     margin-left: 5%;
 }
 #middle-cotainer{
+
+    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
+    text-align: right;
     position: relative;
     left: 5%;
     width: 90%;
     height: 500px;
-    background:url('https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro.jpg');
+    background:url('https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro.jpg') no-repeat;
+}
+#introduce-title{
+    position: absolute;
+    right: 30px;
+    color: black;
+    font-size: 30px;
+}
+#point-title{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+#footer-container{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    
+}
+#aicen{
+
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+#tmi{
+    transform: translateY(-30%);
+    color: grey;
+    font-size: 25px;
+    font-weight: bold;
+    
+    position: relative;
+    
+}
+#emerald{
+    color:#03b9c9 !important;
+    
+}
+#blue{
+    color: #125fac !important;
+}
+@media (max-width: 767px) {
+    #tmi{
+        transform: translateY(-10%);
+    }
+}
+#tmi-sub-grey{
+    color: grey !important;
 }
