@@ -13,6 +13,13 @@ const Exam02 = () => {
         <Navbar />
         <hr />
         <div className="body-container">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h1>
             Division of
             <br />

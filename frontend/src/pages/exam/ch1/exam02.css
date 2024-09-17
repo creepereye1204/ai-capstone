@@ -14,10 +14,10 @@ body {
 #header-container {
   position: relative;
   background-size: cover;
-  height: 700px;
+  height: 650px;
   background-image: url("https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/Vector2-1.jpg");
-  background-color: rgba(148, 148, 148, 0.5); /* 배경색 추가 */
-  background-blend-mode: multiply; /* 배경 이미지와 배경색 혼합 */
+  background-color: rgba(148, 148, 148, 0.8);
+  background-blend-mode: multiply;
 }
 
 #card {
