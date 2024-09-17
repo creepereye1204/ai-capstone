@@ -1,0 +1,27 @@
+#footer {
+  position: relative !important;
+  max-width: 1200px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(229, 228, 228);
+  width: 100%;
+  min-height: 50px;
+}
+.copyright {
+  margin-top: 80px;
+  background-color: #666;
+  color: #666;
+  font-size: 14px;
+  height: 150px;
+}
+.icon {
+  position: relative;
+  color: white !important;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}

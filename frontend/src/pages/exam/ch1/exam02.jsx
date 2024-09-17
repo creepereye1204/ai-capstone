@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./exam02.css";
 import Navbar from "../../../components/navbar/navbar";
+import Copyright from "../../../components/copyRight/copyRight";
 import { FaCircle } from "react-icons/fa";
 import { MdHome } from "react-icons/md";
 const Exam02 = () => {
@@ -80,13 +81,34 @@ const Exam02 = () => {
       <div id="end-container">
         <card className="mini-card">
           <img src="https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro_feature1.jpg"></img>
+          <div className="card-text">
+            <h3>전문인재</h3>
+            <p>
+              빅데이터 기반 인공지능 전문지식 및 응용 역량을 함양하고 있는
+              인공지능 전문가 양성
+            </p>
+          </div>
         </card>
         <card className="mini-card">
           <img src="https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro_feature2.jpg"></img>
+          <div className="card-text">
+            <h3>창의적이고</h3>
+            <p>
+              빅데이터 기반 인공지능 전문지식 및 응용 역량을 함양하고 있는
+              인공지능 전문가 양성
+            </p>
+          </div>
         </card>
         <card className="mini-card">
           <img src="https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro_feature3.jpg"></img>
+          <div className="card-text">
+            <h3>글로벌인재</h3>
+            <p>글로벌 수준의 전문성과 리더십을 갖춘 인재 양성</p>
+          </div>
         </card>
+      </div>
+      <div id="bottom-container">
+        <Copyright />
       </div>
     </div>
   );
