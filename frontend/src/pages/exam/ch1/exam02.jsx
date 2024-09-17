@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./exam02.css";
 import Navbar from "../../../components/navbar/navbar";
-import CopyRight from "../../../components/copyRight/copyRight";
 import { FaCircle } from "react-icons/fa";
 import { MdHome } from "react-icons/md";
 const Exam02 = () => {
