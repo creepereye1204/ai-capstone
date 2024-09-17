@@ -1,26 +1,33 @@
 nav {
-    display: flex;
-    justify-content: space-between; /* 양끝 정렬 */
-    
-    padding: 25px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
 }
 
 .Link {
-    text-decoration: none;
-    margin-left: 10px;
-    color: white;
-    font-weight: bolder;
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+  font-weight: bolder;
 }
 
 .onClicked {
-    text-decoration: none;
-    margin-left: 10px;
-    color: skyblue;
-    font-weight: bolder;
+  text-decoration: none;
+  margin-left: 10px;
+  color: skyblue;
+  font-weight: bolder;
 }
 
 img {
-    height: 30px;
+  margin-right: 10px;
+  height: 45px;
+}
+#logo {
+  display: flex;
+  font-size: 20px;
+  font-weight: bolder;
+  align-items: center;
 }

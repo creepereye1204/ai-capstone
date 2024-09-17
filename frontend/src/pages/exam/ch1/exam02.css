@@ -1,123 +1,146 @@
-h1{
-    margin-left: 10px;
-    color: white;
+h1 {
+  margin-left: 10px;
+  color: white;
 }
-p{
-    margin-left: 10px;
-    color: white;
-    font-size: 12px;
+p {
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
 }
 
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-#header-container{
+#header-container {
+  position: relative;
+  background-size: cover;
+  height: 700px;
+  background-image: url("https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/Vector2-1.jpg");
+  background-color: rgba(148, 148, 148, 0.5); /* 배경색 추가 */
+  background-blend-mode: multiply; /* 배경 이미지와 배경색 혼합 */
+}
 
-    height: 400px;
-    background-image: url('https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/Vector2-1.jpg');
-}
-#card{
-    font-weight: bolder;
-    font-size: 12px;
-    align-items: center;
-    justify-items: flex-start;
-    display: flex;
-    left: 5%;
-    top: -50px;
-    border-radius: 0px;
-    position: relative;
-    width: 90%;
-    height: 100px;
-    background:url('https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/bg_sub_breadcrumb4.png');
-}
-.home-icon{
-    margin: 10px;
-    left: 2%;
-    color: white !important;
-    
-    width: 30px;
-    height: 30px;
-    
-    
-    
-}
-.dot-icon{
-    height: 5px;
-    width: 5px;
-    color: white;
-    margin: 10px;
-    opacity: 0.5;
-}
-.item{
-    color: white;
+#card {
+  z-index: 2;
+  font-weight: bolder;
+  font-size: 12px;
+  align-items: center;
+  justify-items: flex-start;
+  display: flex;
 
-    margin: 10px;
-    text-decoration: none;
-}
-#sub-title{
-    font-weight:bolder;
-    font-size: 20px;
-    
-    margin-left: 5%;
-}
-#middle-cotainer{
+  top: -50px;
+  border-radius: 0px;
+  position: relative;
 
-    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
-    text-align: right;
-    position: relative;
-    left: 5%;
-    width: 90%;
-    height: 500px;
-    background:url('https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro.jpg') no-repeat;
+  height: 100px;
+  background: url("https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/bg_sub_breadcrumb4.png")
+    no-repeat;
 }
-#introduce-title{
-    position: absolute;
-    right: 30px;
-    color: black;
-    font-size: 30px;
-}
-#point-title{
-    font-weight: bolder;
-    font-size: 30px;
+.home-icon {
+  margin: 10px;
+  left: 2%;
+  color: white !important;
 
+  width: 30px;
+  height: 30px;
 }
-#footer-container{
-    position: relative;
-    width: 90%;
-    left: 5%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-items: flex-start;
-    
+.dot-icon {
+  height: 5px;
+  width: 5px;
+  color: white;
+  margin: 10px;
+  opacity: 0.5;
 }
-#aicen{
+.item {
+  color: white;
 
-    position: relative;
-    width: 25%;
-    height: auto;
+  margin: 10px;
+  text-decoration: none;
 }
-#tmi{
-    transform: translateY(-30%);
-    color: grey;
-    font-size: 25px;
-    font-weight: bold;
-    
-    position: relative;
-    
+#sub-title {
+  font-weight: bolder;
+  color: #2e3235;
+  font-size: 25px;
 }
-#emerald{
-    color:#03b9c9 !important;
-    
+#middle-cotainer {
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
+  text-align: right;
+  position: relative;
+
+  height: 500px;
+  background: url("https://www.syu.ac.kr/aicen/wp-content/uploads/sites/94/2022/11/img_sub_intro.jpg")
+    no-repeat;
 }
-#blue{
-    color: #125fac !important;
+#introduce-title {
+  position: absolute;
+  right: 30px;
+  color: black;
+  font-size: 30px;
 }
-@media (max-width: 767px) {
-    #tmi{
-        transform: translateY(-10%);
-    }
+#point-title {
+  font-weight: bolder;
+  font-size: 30px;
 }
-#tmi-sub-grey{
-    color: grey !important;
+#footer-container {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+}
+#aicen {
+  position: relative;
+  width: 25%;
+  height: auto;
+}
+#tmi {
+  color: grey;
+  font-size: 25px;
+  font-weight: bold;
+
+  position: relative;
+}
+#emerald {
+  color: #03b9c9 !important;
+}
+#blue {
+  color: #125fac !important;
+}
+
+.spaced {
+  margin-top: 50px;
+  color: grey !important;
+}
+
+.body-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+hr {
+  margin: 0px;
+  border: none;
+  height: 1px;
+  background-color: grey;
+}
+#end-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mini-card {
+  position: relative;
+  max-width: 300px;
+  height: 600px;
+  margin: 30px;
+}
+#end-container > card > img {
+  width: 100%;
+  height: auto;
 }
