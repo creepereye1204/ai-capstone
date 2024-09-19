@@ -25,7 +25,7 @@ runserver:
 	poetry run python manage.py runserver
 
 .PHONY: all
-all: migrations migrate npm-run collect commit runserver
+all: migrations migrate npm-run collect runserver
 
 .PHONY: superuser
 superuser:
