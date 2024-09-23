@@ -1,9 +1,9 @@
 import React from "react";
-import "./exam03.css";
+import styles from "./exam03.module.css"; // CSS 모듈로 import
 
 const Exam03 = () => {
   return (
-    <div className="exam03">
+    <div className={styles.exam03}>
       <h1>삼육대학교</h1>
       <b>삼육대학교</b>
       <i>삼육대학교</i>
@@ -34,19 +34,19 @@ const Exam03 = () => {
         <sub>삼육대학교</sub>
         <sup>삼육대학교</sup>
       </article>
-      <ul type="circle">
+      <ul className={styles.circleList}>
         <li>1</li>
         <li>2</li>
       </ul>
-      <ul type="square">
+      <ul className={styles.squareList}>
         <li>1</li>
         <li>2</li>
       </ul>
-      <ol type="I" start="10">
+      <ol className={styles.romanList} type="I" start="10">
         <li>1</li>
         <li>2</li>
       </ol>
-      <ol type="A" start="10">
+      <ol className={styles.alphaList} type="A" start="10">
         <li>1</li>
         <li>2</li>
       </ol>
@@ -85,7 +85,7 @@ const Exam03 = () => {
         <dt>제목</dt>
         <dd>내용</dd>
       </dl>
-      <table border="1">
+      <table className={styles.table} border="1">
         <thead>
           <tr>
             <th>제목1</th>
@@ -108,7 +108,7 @@ const Exam03 = () => {
           </tr>
         </tfoot>
       </table>
-      <table border="1">
+      <table className={styles.table} border="1">
         <tr>
           <th>제목1</th>
           <th>제목2</th>
@@ -128,7 +128,7 @@ const Exam03 = () => {
           title="ssh login"
           alt="ssh login"
           width="40%"
-        ></img>
+        />
       </a>
       <p>s</p>
       <h4>s</h4>
@@ -140,7 +140,7 @@ const Exam03 = () => {
         alt="ssh login"
         width="100%"
         useMap="#map1"
-      ></img>
+      />
       <map name="map1">
         <area
           href="https://ai-capstone.p-e.kr/about"

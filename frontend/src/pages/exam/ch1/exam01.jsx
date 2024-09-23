@@ -1,12 +1,7 @@
-
 import React from "react";
-import "./exam01.css"
+import "./exam01.css";
 
 const Exam01 = () => {
-  
-
-
-
   return (
     <div>
       <h1>안녕&nbsp;하세요</h1>

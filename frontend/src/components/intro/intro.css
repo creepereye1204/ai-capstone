@@ -1,43 +1,43 @@
 .main_top_full_box {
-    height: 60vh;
-    width: 100%;
-    background-image: url('https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/img_header.jpg');
-    background-size: cover; /* 이미지 크기 조정 */
-    background-position: center; /* 중앙 정렬 */
-    position: relative;
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://www.syu.ac.kr/aice/wp-content/uploads/sites/94/2022/11/img_header.jpg");
+  background-size: cover; /* 이미지 크기 조정 */
+  background-position: center; /* 중앙 정렬 */
+  position: relative;
 }
 
 .main {
-    display: flex;
-    flex-direction: column; /* 세로 방향으로 정렬 */
-    justify-content: center; /* 수직 중앙 정렬 */
-    align-items: center; /* 수평 중앙 정렬 */
-    height: 100%; /* 부모 요소의 높이 전체 사용 */
-    text-align: center; /* 텍스트 중앙 정렬 */
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 정렬 */
+  justify-content: center; /* 수직 중앙 정렬 */
+  align-items: center; /* 수평 중앙 정렬 */
+  height: 100%; /* 부모 요소의 높이 전체 사용 */
+  text-align: center; /* 텍스트 중앙 정렬 */
 }
 
 .eng_title {
-    font-weight: 400;
-    color: white;
-    font-size: 18px;
-    letter-spacing: 24px;
-    margin-bottom: 26px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 추가 */
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 24px;
+  margin-bottom: 26px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 추가 */
 }
 
 .kr_title {
-    color: white; /* 한국어 제목 색상 설정 */
-    font-size: 16px; /* 크기 조정 */
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 추가 */
+  color: white; /* 한국어 제목 색상 설정 */
+  font-size: 16px; /* 크기 조정 */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 추가 */
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
-    .eng_title {
-        letter-spacing: 10px;
-        font-size: 16px; /* 모바일에서 폰트 크기 조정 */
-    }
+  .eng_title {
+    letter-spacing: 10px;
+    font-size: 16px; /* 모바일에서 폰트 크기 조정 */
+  }
 }
