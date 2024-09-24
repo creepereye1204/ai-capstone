@@ -91,6 +91,7 @@ const Exam04 = () => {
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>6교시</td>

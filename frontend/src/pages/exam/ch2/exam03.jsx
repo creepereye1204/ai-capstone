@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./exam03.module.css"; // CSS 모듈로 import
+import "./exam03.css"; // CSS 모듈로 import
 
 const Exam03 = () => {
   return (
-    <div className={styles.exam03}>
+    <div className="exam03">
       <h1>삼육대학교</h1>
       <b>삼육대학교</b>
       <i>삼육대학교</i>
@@ -14,42 +14,45 @@ const Exam03 = () => {
       <ins>삼육대학교</ins>
       <sub>삼육대학교</sub>
       <sup>삼육대학교</sup>
+
       <div>
         <ins>삼육대학교</ins>
         <sub>삼육대학교</sub>
         <sup>삼육대학교</sup>
       </div>
+
       <section>
         <ins>삼육대학교</ins>
         <sub>삼육대학교</sub>
         <sup>삼육대학교</sup>
       </section>
-      <section>
-        <ins>삼육대학교</ins>
-        <sub>삼육대학교</sub>
-        <sup>삼육대학교</sup>
-      </section>
+
       <article>
         <ins>삼육대학교</ins>
         <sub>삼육대학교</sub>
         <sup>삼육대학교</sup>
       </article>
-      <ul className={styles.circleList}>
+
+      <ul>
         <li>1</li>
         <li>2</li>
       </ul>
-      <ul className={styles.squareList}>
+
+      <ul>
         <li>1</li>
         <li>2</li>
       </ul>
-      <ol className={styles.romanList} type="I" start="10">
+
+      <ol type="I" start="10">
         <li>1</li>
         <li>2</li>
       </ol>
-      <ol className={styles.alphaList} type="A" start="10">
+
+      <ol type="A" start="10">
         <li>1</li>
         <li>2</li>
       </ol>
+
       <ol type="1" start="11">
         <li>1</li>
         <li>2</li>
@@ -62,6 +65,7 @@ const Exam03 = () => {
           <dd>내용</dd>
         </dl>
       </ol>
+
       <dl>
         <dt>제목</dt>
         <dd>내용</dd>
@@ -72,6 +76,7 @@ const Exam03 = () => {
         <dt>제목</dt>
         <dd>내용</dd>
       </dl>
+
       <dl>
         <dt>파이썬</dt>
         <dd>Django</dd>
@@ -85,7 +90,8 @@ const Exam03 = () => {
         <dt>제목</dt>
         <dd>내용</dd>
       </dl>
-      <table className={styles.table} border="1">
+
+      <table className="table" border="1">
         <thead>
           <tr>
             <th>제목1</th>
@@ -108,25 +114,31 @@ const Exam03 = () => {
           </tr>
         </tfoot>
       </table>
-      <table className={styles.table} border="1">
-        <tr>
-          <th>제목1</th>
-          <th>제목2</th>
-        </tr>
-        <tr>
-          <td colSpan="2">내용1</td>
-        </tr>
-        <tr>
-          <td>합계</td>
-          <td>100</td>
-        </tr>
+
+      <table className="table" border="1">
+        <thead>
+          <tr>
+            <th>제목1</th>
+            <th>제목2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colSpan="2">내용1</td>
+          </tr>
+          <tr>
+            <td>합계</td>
+            <td>100</td>
+          </tr>
+        </tbody>
       </table>
+
       <p>s</p>
       <a href="https://ai-capstone.p-e.kr/about">
         <img
           src="https://www.syu.ac.kr/aice/wp-content/themes/syu-hakbu/images/logo/logo_w.png"
           title="ssh login"
-          alt="ssh login"
+          alt="삼육대학교 로고"
           width="40%"
         />
       </a>
@@ -137,7 +149,7 @@ const Exam03 = () => {
       <img
         src="https://www.syu.ac.kr/aice/wp-content/themes/syu-hakbu/images/logo/logo_w.png"
         title="ssh login"
-        alt="ssh login"
+        alt="삼육대학교 로고"
         width="100%"
         useMap="#map1"
       />

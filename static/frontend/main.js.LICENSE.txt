@@ -1,151 +1,65 @@
-/*!***********************!*\
-  !*** ./src/index.jsx ***!
-  \***********************/
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
 
-/*!***********************************!*\
-  !*** ./src/pages/intro/intro.jsx ***!
-  \***********************************/
+/**
+ * @remix-run/router v1.19.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
 
-/*!*************************************!*\
-  !*** ./node_modules/react/index.js ***!
-  \*************************************/
+/**
+ * React Router DOM v6.26.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
 
-/*!***************************************!*\
-  !*** ./src/pages/exam/ch1/exam01.css ***!
-  \***************************************/
+/**
+ * React Router v6.26.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
 
-/*!***************************************!*\
-  !*** ./src/pages/exam/ch1/exam01.jsx ***!
-  \***************************************/
+/** @license React v0.20.2
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
-/*!***************************************!*\
-  !*** ./src/pages/exam/ch1/exam02.css ***!
-  \***************************************/
+/** @license React v17.0.2
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
-/*!***************************************!*\
-  !*** ./src/pages/exam/ch1/exam02.jsx ***!
-  \***************************************/
-
-/*!*****************************************!*\
-  !*** ./node_modules/react-dom/index.js ***!
-  \*****************************************/
-
-/*!*****************************************!*\
-  !*** ./node_modules/scheduler/index.js ***!
-  \*****************************************/
-
-/*!******************************************!*\
-  !*** ./src/components/navbar/navbar.css ***!
-  \******************************************/
-
-/*!******************************************!*\
-  !*** ./src/components/navbar/navbar.jsx ***!
-  \******************************************/
-
-/*!*********************************************!*\
-  !*** ./node_modules/object-assign/index.js ***!
-  \*********************************************/
-
-/*!***********************************************!*\
-  !*** ./node_modules/react-icons/fa/index.mjs ***!
-  \***********************************************/
-
-/*!***********************************************!*\
-  !*** ./node_modules/react-icons/md/index.mjs ***!
-  \***********************************************/
-
-/*!************************************************!*\
-  !*** ./node_modules/react-icons/lib/index.mjs ***!
-  \************************************************/
-
-/*!************************************************!*\
-  !*** ./src/components/copyRight/copyRight.css ***!
-  \************************************************/
-
-/*!************************************************!*\
-  !*** ./src/components/copyRight/copyRight.jsx ***!
-  \************************************************/
-
-/*!*************************************************!*\
-  !*** ./node_modules/react-router/dist/index.js ***!
-  \*************************************************/
-
-/*!***************************************************!*\
-  !*** ./node_modules/react-icons/lib/iconBase.mjs ***!
-  \***************************************************/
-
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-
-/*!*****************************************************!*\
-  !*** ./node_modules/react-router-dom/dist/index.js ***!
-  \*****************************************************/
-
-/*!******************************************************!*\
-  !*** ./node_modules/react-icons/lib/iconContext.mjs ***!
-  \******************************************************/
-
-/*!*******************************************************!*\
-  !*** ./node_modules/@remix-run/router/dist/router.js ***!
-  \*******************************************************/
-
-/*!********************************************************!*\
-  !*** ./node_modules/react-icons/lib/iconsManifest.mjs ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./node_modules/react/cjs/react.production.min.js ***!
-  \********************************************************/
-
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
-  \**************************************************************/
-
-/*!***************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
-  \***************************************************************/
-
-/*!****************************************************************!*\
-  !*** ./node_modules/react-dom/cjs/react-dom.production.min.js ***!
-  \****************************************************************/
-
-/*!****************************************************************!*\
-  !*** ./node_modules/scheduler/cjs/scheduler.production.min.js ***!
-  \****************************************************************/
-
-/*!********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
-  \********************************************************************/
-
-/*!*********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
-  \*********************************************************************/
-
-/*!**********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
-  \**********************************************************************/
-
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-
-/*!*****************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/pages/exam/ch1/exam01.css ***!
-  \*****************************************************************************/
-
-/*!*****************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/pages/exam/ch1/exam02.css ***!
-  \*****************************************************************************/
-
-/*!********************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/navbar/navbar.css ***!
-  \********************************************************************************/
-
-/*!**********************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
-  \**********************************************************************************/
-
-/*!**************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/copyRight/copyRight.css ***!
-  \**************************************************************************************/
+/** @license React v17.0.2
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
