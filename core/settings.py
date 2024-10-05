@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wcrm8ycxnwv-e_kf3fp5qgl57d@asltg&zybny86mc^6*^v7gb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['ai-capstone.p-e.kr','127.0.0.1']
 

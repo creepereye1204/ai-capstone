@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      #selected {
+        color: red;
+      }
+      .dark {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <script>
+      // popup message
+      var input = prompt("숫자를 입력하세요.");
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+
+    <script>
+      document.write("<p>document.write() 메소드를 이용한 출력</p>");
+    </script>
+    <p>
+      입력한 숫자는
+      <b
+        ><script>
+          document.write(input);
+        </script></b
+      >
+    </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li id="selected">JavaScript</li>
+    </ul>
+    <input
+      type="button"
+      onclick="document.body.className='dark'"
+      value="dark"
+    />
+  </body>
+</html>

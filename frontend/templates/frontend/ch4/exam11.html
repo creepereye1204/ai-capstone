@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+  </head>
+  <script>
+    function callFiveTimes(callback) {
+      for (var i = 0; i < 5; i++) callback();
+    }
+    callFiveTimes(function () {
+      alert("콜백 함수 실행");
+    });
+  </script>
+</html>
