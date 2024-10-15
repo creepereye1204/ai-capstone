@@ -8,12 +8,13 @@ import Exam03 from "./pages/exam/ch2/exam03";
 import Exam04 from "./pages/exam/ch2/exam04";
 import Exam05 from "./pages/exam/ch3/exam05";
 import Exam06 from "./pages/exam/ch3/exam06";
+import Ch3 from "./pages/tests/ch3";
 const Main = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Intro />} />
-
+        <Route path="/ch3" element={<Ch3 />} />
         <Route path="/exam01" element={<Exam01 />} />
         <Route path="/exam02" element={<Exam02 />} />
         <Route path="/exam03" element={<Exam03 />} />
